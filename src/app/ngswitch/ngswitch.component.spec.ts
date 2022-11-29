@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PractisComponent } from './practis.component';
+import { NgswitchComponent } from './ngswitch.component';
 
-describe('PractisComponent', () => {
-  let component: PractisComponent;
-  let fixture: ComponentFixture<PractisComponent>;
+describe('NgswitchComponent', () => {
+  let component: NgswitchComponent;
+  let fixture: ComponentFixture<NgswitchComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PractisComponent ]
+      declarations: [ NgswitchComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(PractisComponent);
+    fixture = TestBed.createComponent(NgswitchComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

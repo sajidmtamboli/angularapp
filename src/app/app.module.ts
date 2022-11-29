@@ -5,18 +5,30 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { WarningSuccefullComponent } from './warning-succefull/warning-succefull.component';
-import { PractisComponent } from './practis/practis.component';
 
+import { ServersComponent } from './servers/servers.component';
+import { DataBandingAssigmentComponent } from './data-banding-assigment/data-banding-assigment.component';
+import { FormsModule } from '@angular/forms';
+import { DemodirectivesComponent } from './demodirectives/demodirectives.component';
+import { NgswitchComponent } from './ngswitch/ngswitch.component';
+import { AttriComponent } from './attri/attri.component';
+import { CustdirDirective } from './custdir.directive';
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
     WarningSuccefullComponent,
-    PractisComponent
+    ServersComponent,
+    DataBandingAssigmentComponent,
+    DemodirectivesComponent,
+    NgswitchComponent,
+    AttriComponent,
+    CustdirDirective,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

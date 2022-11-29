@@ -1,0 +1,10 @@
+<div>This is my demo div</div>
+
+
+<label>{{name}}</label>
+<p>Server with Id {{serverID}} is {{serverStatus}}</p>
+<p>Server with Id {{serverID}} is {{getServerStatus()}}</p>
+<button [disabled]="!allowNewServer" (click)="onCreatedServer()">Add server</button>
+<div>{{serverCreationStatus}}</div>
+{{serverCreationStatus}}
+<img [src]="imgUrl">
