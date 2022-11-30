@@ -1,0 +1,15 @@
+<h2>Data transfer parent to child</h2>
+<table class="table table-bordered border-primary">
+    <thead>
+        <th>Sr.No</th>
+        <th>Model</th>
+        <th>Price</th>
+    </thead>
+    <tbody>
+<tr *ngFor="let data of allMobile" >
+    <td>{{data.srNo}}</td>
+    <td>{{data.model}}</td>
+    <td>{{data.price}}</td>
+</tr>
+</tbody>
+</table>

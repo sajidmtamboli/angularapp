@@ -13,6 +13,10 @@ import { DemodirectivesComponent } from './demodirectives/demodirectives.compone
 import { NgswitchComponent } from './ngswitch/ngswitch.component';
 import { AttriComponent } from './attri/attri.component';
 import { CustdirDirective } from './custdir.directive';
+import { DemoComponent } from './demo/demo.component';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './child/child.component';
+import { OutputComponent } from './output/output.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +28,10 @@ import { CustdirDirective } from './custdir.directive';
     NgswitchComponent,
     AttriComponent,
     CustdirDirective,
+    DemoComponent,
+    ParentComponent,
+    ChildComponent,
+    OutputComponent,
   ],
   imports: [
     BrowserModule,

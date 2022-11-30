@@ -1,0 +1,18 @@
+<p>parent works!</p>
+<app-output (mobileDetails)="getEvent($event)"></app-output>
+<!-- <app-child [allMobile]="Mobile" ></app-child> -->
+
+<table class="table table-bordered border-primary">
+    <thead>
+        <th>Sr.No</th>
+        <th>Model</th>
+        <th>Price</th>
+    </thead>
+    <tbody>
+<tr *ngFor="let data of array" >
+    <td>{{data.srNo}}</td>
+    <td>{{data.model}}</td>
+    <td>{{data.price}}</td>
+</tr>
+</tbody>
+</table>
