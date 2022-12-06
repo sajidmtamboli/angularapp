@@ -17,6 +17,11 @@ import { DemoComponent } from './demo/demo.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
 import { OutputComponent } from './output/output.component';
+import { HooksComponent } from './hooks/hooks.component';
+import { HooksAssigmentComponent } from './hooks-assigment/hooks-assigment.component';
+import { DirecAssigmentComponent } from './direc-assigment/direc-assigment.component';
+import { OnChangeParentComponent } from './on-change-parent/on-change-parent.component';
+import { OnChangeChildComponent } from './on-change-child/on-change-child.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,6 +37,11 @@ import { OutputComponent } from './output/output.component';
     ParentComponent,
     ChildComponent,
     OutputComponent,
+    HooksComponent,
+    HooksAssigmentComponent,
+    DirecAssigmentComponent,
+    OnChangeParentComponent, 
+    OnChangeChildComponent,
   ],
   imports: [
     BrowserModule,
