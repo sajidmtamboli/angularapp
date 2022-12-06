@@ -22,6 +22,8 @@ import { HooksAssigmentComponent } from './hooks-assigment/hooks-assigment.compo
 import { DirecAssigmentComponent } from './direc-assigment/direc-assigment.component';
 import { OnChangeParentComponent } from './on-change-parent/on-change-parent.component';
 import { OnChangeChildComponent } from './on-change-child/on-change-child.component';
+import { LifeCycleHookChildComponent } from './life-cycle-hook-child/life-cycle-hook-child.component';
+import { LifeCycleHookParentComponent } from './life-cycle-hook-parent/life-cycle-hook-parent.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,6 +44,8 @@ import { OnChangeChildComponent } from './on-change-child/on-change-child.compon
     DirecAssigmentComponent,
     OnChangeParentComponent, 
     OnChangeChildComponent,
+    LifeCycleHookChildComponent,
+    LifeCycleHookParentComponent,
   ],
   imports: [
     BrowserModule,
