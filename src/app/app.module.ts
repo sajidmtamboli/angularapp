@@ -24,6 +24,10 @@ import { OnChangeParentComponent } from './on-change-parent/on-change-parent.com
 import { OnChangeChildComponent } from './on-change-child/on-change-child.component';
 import { LifeCycleHookChildComponent } from './life-cycle-hook-child/life-cycle-hook-child.component';
 import { LifeCycleHookParentComponent } from './life-cycle-hook-parent/life-cycle-hook-parent.component';
+import { LifeCycleChildComponent } from './life-cycle-child/life-cycle-child.component';
+import { LifeCycleParentComponent } from './life-cycle-parent/life-cycle-parent.component';
+import { SimpleformComponent } from './simpleform/simpleform.component';
+import { SimpleformAssigComponent } from './simpleform-assig/simpleform-assig.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -46,6 +50,10 @@ import { LifeCycleHookParentComponent } from './life-cycle-hook-parent/life-cycl
     OnChangeChildComponent,
     LifeCycleHookChildComponent,
     LifeCycleHookParentComponent,
+    LifeCycleChildComponent,
+    LifeCycleParentComponent,
+    SimpleformComponent,
+    SimpleformAssigComponent,
   ],
   imports: [
     BrowserModule,

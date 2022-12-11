@@ -1,0 +1,9 @@
+
+<app-life-cycle-child *ngIf="isshow" [parentData]="data">
+    <h1 #refer>Dyneswar is good teacher</h1>
+</app-life-cycle-child>
+
+<input type="text" (keyup.enter)="getData($event)">
+
+<button (click)="clear()">remove data</button>
+

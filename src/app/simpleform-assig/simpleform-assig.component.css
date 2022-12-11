@@ -1,0 +1,15 @@
+h3{
+    color: blanchedalmond;
+
+}
+.body{
+    
+    background: rgb(22,0,8);
+    background: linear-gradient(90deg, rgba(22,0,8,0.21052170868347342) 0%, rgba(38,121,9,1) 35%, rgba(0,212,255,1) 100%);
+  
+
+}
+form{
+    margin-left: 500px;
+}
+
