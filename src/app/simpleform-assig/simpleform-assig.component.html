@@ -9,7 +9,8 @@
         </div>
         <div class="form-group col-md-6">
             <label for="inputEmail4">Email</label>
-            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            <input type="email" pattern="^[a-zA-Z0-9]+@ibibo.com" class="form-control" id="inputEmail4" placeholder="Email">
+            <small class="text-denger" *ngIf="email.invalid && email.touched">Enter valid Email</small>
         </div>
         <div class="form-group col-md-6">
             <label for="inputPassword4">Password</label>
@@ -41,14 +42,19 @@
                 <option>Himachal</option>
             </select>
         </div>
+        <div class="form-group col-md-4">
+        <label for="date">Registrion Date</label> <br>
+        <input type="date" min="2022-12-11">
+    </div>
         <div class="form-group col-md-2">
-
+        
         </div>
     </div>
     <div class="form-group">
         <div class="form-check">
 
         </div>
+
     </div>
     <button type="submit" class="btn btn-primary">Sign in</button> &nbsp;&nbsp;&nbsp;&nbsp;
     <button type="reset" class="btn btn-secondary">Reset</button>

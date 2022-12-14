@@ -8,7 +8,7 @@ import { WarningSuccefullComponent } from './warning-succefull/warning-succefull
 
 import { ServersComponent } from './servers/servers.component';
 import { DataBandingAssigmentComponent } from './data-banding-assigment/data-banding-assigment.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DemodirectivesComponent } from './demodirectives/demodirectives.component';
 import { NgswitchComponent } from './ngswitch/ngswitch.component';
 import { AttriComponent } from './attri/attri.component';
@@ -28,6 +28,8 @@ import { LifeCycleChildComponent } from './life-cycle-child/life-cycle-child.com
 import { LifeCycleParentComponent } from './life-cycle-parent/life-cycle-parent.component';
 import { SimpleformComponent } from './simpleform/simpleform.component';
 import { SimpleformAssigComponent } from './simpleform-assig/simpleform-assig.component';
+import { ReactiveformComponent } from './reactiveform/reactiveform.component';
+import { ReactiveFormsComponent } from './reactive-forms/reactive-forms.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -54,11 +56,14 @@ import { SimpleformAssigComponent } from './simpleform-assig/simpleform-assig.co
     LifeCycleParentComponent,
     SimpleformComponent,
     SimpleformAssigComponent,
+    ReactiveformComponent,
+   ReactiveFormsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

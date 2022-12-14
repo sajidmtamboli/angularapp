@@ -1,0 +1,61 @@
+<div class="conatainer mt-sm-5">
+    <div class="row justify-content-center">
+        <div class="col-md-5 text-left rounded shadow py-3">
+
+            <form [formGroup]="reactiveForm" (ngSubmit)="onSubmit()">
+                <h2>Reactive Form</h2>
+
+                <div class="col-md-7 py-2">
+                    <label for="">Username</label>
+                    <input class="form-control" type="text" formControlName="userName"
+                        placeholder="Enter your username">
+                </div>
+                <div class="col-md-7 py-2">
+                    <label for="">Password</label>
+                    <input id="pass" class="form-control" type="email" formControlName="email"
+                        placeholder="Enter your email ID">
+                    <span *ngIf="!reactiveForm.get('email').valid && reactiveForm.get('email').touched">
+                        Please enter valid email address for.eg.- abc@gmail.com
+                    </span>
+                </div>
+
+                <div class="col-md-7">
+                    <label for="allCourse">Course</label>
+                    <select class="form-control" id="allCourse" formControlName="course">
+                        <option disabled>--Select--</option>
+                        <option value="Angular">Angular</option>
+                        <option value="HTML5">HTML5</option>
+                        <option value="Java">Java</option>
+                    </select>
+                </div>
+                <div class="col-md-7 py-3">
+                    <div class="gender" *ngFor="let gender of genders">
+                        <input type="radio" formControlName="Gender" id="{{gender.id}}" value="{{gender.value}}">
+                        <label for="{{gender.id}}">{{gender.value}}</label>
+                    </div>
+                </div>
+
+                <div formGroupName="addressDetails">
+                    <div class="col-md-7 py-2">
+                        <label for="">Parament Address</label>
+                        <input class="form-control" type="text" formControlName="paramentAddress"
+                            placeholder="Enter your Parament Address">
+                    </div>
+                    <div class="col-md-7 py-2">
+                        <label for="">Pin Code</label>
+                        <input id="pass" class="form-control" type="number" formControlName="pinCode"
+                            placeholder="Enter your pin code">
+                            <span *ngIf="!reactiveForm.get('addressDetails.pinCode').valid && reactiveForm.get('addressDetails.pinCode').touched">
+                                Please filling complete Address
+                            </span>
+                    </div>
+                   
+                </div>
+                <div class="button py-2">
+                    <button class="btn btn-success ml-sm-5">Submit</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
