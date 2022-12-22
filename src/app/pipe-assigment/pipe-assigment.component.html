@@ -1,0 +1,17 @@
+<p>pipe-assigment works!</p>
+<p>Todays date in lowercase</p>
+<div>Todays date : {{todayDate | date: 'fullDate' | lowercase }}</div>
+
+
+<P>Apple Headphone price in diffrent countries</P>
+<div>
+   In America = {{prices | currency: 'USD'}} <br>
+   In Australia = {{prices | currency: 'AUD'}} <br>
+   In Armenia = {{prices | currency: 'AMD'}} <br>
+   In China = {{prices | currency: 'CNY'}} <br>
+</div>
+
+<div>
+    <p>Json pipe</p>
+{{obj | json}}
+</div>

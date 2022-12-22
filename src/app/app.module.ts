@@ -30,6 +30,9 @@ import { SimpleformComponent } from './simpleform/simpleform.component';
 import { SimpleformAssigComponent } from './simpleform-assig/simpleform-assig.component';
 import { ReactiveformComponent } from './reactiveform/reactiveform.component';
 import { ReactiveFormsComponent } from './reactive-forms/reactive-forms.component';
+import { PipedemoComponent } from './pipedemo/pipedemo.component';
+import { CountPipe } from './count.pipe';
+import { PipeAssigmentComponent } from './pipe-assigment/pipe-assigment.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -58,6 +61,9 @@ import { ReactiveFormsComponent } from './reactive-forms/reactive-forms.componen
     SimpleformAssigComponent,
     ReactiveformComponent,
    ReactiveFormsComponent,
+   PipedemoComponent,
+   CountPipe,
+   PipeAssigmentComponent,
   ],
   imports: [
     BrowserModule,
