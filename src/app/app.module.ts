@@ -33,6 +33,18 @@ import { ReactiveFormsComponent } from './reactive-forms/reactive-forms.componen
 import { PipedemoComponent } from './pipedemo/pipedemo.component';
 import { CountPipe } from './count.pipe';
 import { PipeAssigmentComponent } from './pipe-assigment/pipe-assigment.component';
+import { FilpterpipeComponent } from './Pipes/filpterpipe/filpterpipe.component';
+import { FilterPipe } from './filter.pipe';
+import { AboutusComponent } from './aboutus/aboutus.component';
+import { ContactusComponent } from './contactus/contactus.component';
+import { ProductComponent } from './product/product.component';
+import { DemopostComponent } from './demopost/demopost.component';
+import { LoginComponent } from './login/login.component';
+import { RouteroutlateComponent } from './routeroutlate/routeroutlate.component';
+import { ChildrenComponent } from './children/children.component';
+import { ProductlaptopComponent } from './product/productlaptop/productlaptop.component';
+import { ProducTvComponent } from './product/produc-tv/produc-tv.component';
+import { ProductWashingComponent } from './product/product-washing/product-washing.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -64,6 +76,18 @@ import { PipeAssigmentComponent } from './pipe-assigment/pipe-assigment.componen
    PipedemoComponent,
    CountPipe,
    PipeAssigmentComponent,
+   FilpterpipeComponent,
+   FilterPipe,
+   AboutusComponent,
+   ContactusComponent,
+   ProductComponent,
+   DemopostComponent,
+   LoginComponent,
+   RouteroutlateComponent,
+   ChildrenComponent,
+   ProductlaptopComponent,
+   ProducTvComponent,
+   ProductWashingComponent,
   ],
   imports: [
     BrowserModule,
