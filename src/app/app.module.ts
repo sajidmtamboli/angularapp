@@ -45,6 +45,8 @@ import { ChildrenComponent } from './children/children.component';
 import { ProductlaptopComponent } from './product/productlaptop/productlaptop.component';
 import { ProducTvComponent } from './product/produc-tv/produc-tv.component';
 import { ProductWashingComponent } from './product/product-washing/product-washing.component';
+import{HttpClientModule} from '@angular/common/http';
+import { RapidAPIGetComponent } from './rapid-apiget/rapid-apiget.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -88,12 +90,14 @@ import { ProductWashingComponent } from './product/product-washing/product-washi
    ProductlaptopComponent,
    ProducTvComponent,
    ProductWashingComponent,
+   RapidAPIGetComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

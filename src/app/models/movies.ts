@@ -5,3 +5,10 @@ export class movie {
     releaseDate : string
 
 }
+
+export class Formclass{
+
+    course : string;
+    username : string;
+    email : string;
+}

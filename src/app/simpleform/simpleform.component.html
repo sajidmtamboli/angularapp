@@ -38,3 +38,22 @@
     </div>
 </div>
 
+<button class ="btn btn-primary" (click)="getdata()" >Get data </button>
+
+<table>
+    <thead>
+        <tr>
+            <th>Sr.no</th>
+            <th>User Name</th>
+            <th>Email Id</th>
+            <th>Course</th>   
+        </tr>    
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of arrayData; let i=index">
+            <td> {{i+1}}</td>
+            <td>{{data.username}}</td>
+        </tr>
+    </tbody>
+</table>
+

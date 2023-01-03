@@ -1,0 +1,11 @@
+<p>rapid-apiget works!</p>
+
+<table>
+    <th>
+        <tr *ngFor="let data of sports">
+            <th>{{data.result.songs[0].album.album_id}}</th>
+            <th>{{data.result.songs[0].album.name}}</th>
+            <th> <a href="{{data.result.songs[0].thumbnail}}">click me</a></th>
+        </tr>
+    </th>
+</table>
